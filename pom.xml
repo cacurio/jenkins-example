@@ -67,6 +67,10 @@
             <id>myMavenRepo.write</id>
             <url>https://mymavenrepo.com/repo/uBSmsDLYbThYPB34vIif/</url>
         </repository>
+        <snapshotRepository>
+            <id>myMavenRepo.write</id>
+            <url>https://mymavenrepo.com/repo/uBSmsDLYbThYPB34vIif/</url>
+        </snapshotRepository>
     </distributionManagement>
 
 </project>
