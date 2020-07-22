@@ -55,6 +55,24 @@
 
     </dependencies>
 
+<!--    <repositories>-->
+<!--        <repository>-->
+<!--            <id>myMavenRepo.read</id>-->
+<!--            <url>https://mymavenrepo.com/repo/AoyBgU4ggEujQ2VidzGt/</url>-->
+<!--        </repository>-->
+<!--    </repositories>-->
+
+<!--    <distributionManagement>-->
+<!--        <repository>-->
+<!--            <id>myMavenRepoWrite</id>-->
+<!--            <url>${myMavenRepoWriteUrl}</url>-->
+<!--        </repository>-->
+<!--        <snapshotRepository>-->
+<!--            <id>myMavenRepoWrite</id>-->
+<!--            <url>${myMavenRepoWriteUrl}</url>-->
+<!--        </snapshotRepository>-->
+<!--    </distributionManagement>-->
+
     <repositories>
         <repository>
             <id>myMavenRepo.read</id>
@@ -64,13 +82,9 @@
 
     <distributionManagement>
         <repository>
-            <id>myMavenRepoWrite</id>
-            <url>${myMavenRepoWriteUrl}</url>
+            <id>myMavenRepo.write</id>
+            <url>https://mymavenrepo.com/repo/uBSmsDLYbThYPB34vIif/</url>
         </repository>
-        <snapshotRepository>
-            <id>myMavenRepoWrite</id>
-            <url>${myMavenRepoWriteUrl}</url>
-        </snapshotRepository>
     </distributionManagement>
 
 </project>
